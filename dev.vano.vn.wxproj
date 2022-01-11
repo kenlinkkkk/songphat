@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<winginx>
+  <project>
+    <name>dev.vano.vn</name>
+    <url>http://dev.vano.vn/</url>
+    <root>home/dev.vano.vn</root>
+  </project>
+</winginx>
