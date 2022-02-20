@@ -366,6 +366,18 @@ img {
   background-size: auto;
 }
 
+.intro-bg {
+  background-image: url(../images/background/intro-header.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.recruit-bg {
+  background-image: url(../images/background/giai-phap3.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
 .bg-footer {
   background-color: #1E2B39;
 }

@@ -21,4 +21,14 @@ class HomeController extends Controller
     {
         return view('welcome');
     }
+
+    public function intro()
+    {
+        return view('intro');
+    }
+
+    public function recruit()
+    {
+        return view('recruit');
+    }
 }

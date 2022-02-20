@@ -18,16 +18,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
+              <a class="nav-link active" aria-current="page" href="{{ route('home.index') }}">Trang chủ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Giới thiệu</a>
+              <a class="nav-link" href="{{ route('home.intro') }}">Giới thiệu</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Giải pháp - Dịch vụ</a>
+              <a class="nav-link" href="{{ route('home.intro') }}">Giải pháp - Dịch vụ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Tuyển dụng</a>
+              <a class="nav-link" href="{{ route('home.recruit') }}">Tuyển dụng</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Tin tức - Sự kiện</a>

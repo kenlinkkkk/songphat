@@ -19,6 +19,8 @@ Auth::routes();
 
 Route::prefix('/')->name('home.')->group(function () {
     Route::get('/', 'Home\HomeController@index')->name('index');
+    Route::get('/gioi-thieu', 'Home\HomeController@intro')->name('intro');
+    Route::get('/tuyen-dung', 'Home\HomeController@recruit')->name('recruit');
 });
 
 Route::middleware('auth')->group(function () {
